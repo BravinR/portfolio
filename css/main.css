@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', arial;
+  background-color: #0F0A4A;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10%;
+  padding-top: 15%;
+}
+
+.nav-container a .logo-svg {
+  width: 50%;
+  height: auto;
+}
+
+.nav-container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container nav ul a {
+  display: block;
+  padding-right: 2rem;
+  color: #3FDD17;
+  font-size: 1.2rem;
+}
+
+.nav-container nav ul .large-screen {
+  display: none;
+}
+
+.nav-container nav ul .github {
+  display: none;
+}
+
+.social-links {
+  display: none;
+}
+
+.intro {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.intro h2 {
+  color: #3FDD17;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.intro h1 {
+  color: #F2A0AF;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.intro .inner {
+  color: #976DA0;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.intro p {
+  color: #976DA0;
+  font-size: 1.1rem;
+  padding-right: 10%;
+}
+
+.intro button {
+  border-radius: 0.5rem;
+  background-color: #0F0A4A;
+  border-color: #3FDD17;
+  border-width: 0.15rem;
+  padding: 15px 32px;
+  color: #F2A0AF;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+
+.about-me {
+  margin-top: 40%;
+}
+
+.about-me h1 {
+  color: #F2A0AF;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 14%;
+}
+
+.about-me h1 hr {
+  display: inline-block;
+  width: 40%;
+  border-color: #4555b4;
+}
+
+.about-me p {
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 2rem;
+  color: #976DA0;
+  font-size: 1.1rem;
+}
+
+.about-me ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 3rem;
+}
+
+.about-me ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20%;
+}
+
+.about-me ul li h2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #F2A0AF;
+  font-size: 1.1rem;
+}
+
+.about-me ul li svg {
+  width: 2rem;
+  height: auto;
+  margin-left: 0;
+}
+
+.about-me .me {
+  margin-left: 14%;
+  margin-top: 3rem;
+  width: 50%;
+}
+
+.projects {
+  margin-top: 40%;
+}
+
+.projects h1 {
+  color: #F2A0AF;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 14%;
+  margin-bottom: 0;
+}
+
+.projects hr {
+  display: inline-block;
+  width: 16%;
+  border-color: #4555b4;
+}
+
+.projects .right {
+  background-color: #715D99;
+  width: 80%;
+  height: 22rem;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 2rem;
+  padding-top: 3rem;
+}
+
+.projects .right h2 {
+  margin-left: 10%;
+  margin-bottom: 0;
+  padding: 0;
+  color: #3FDD17;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.projects .right h1 {
+  margin-left: 0%;
+  color: #F2A0AF;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.projects .right p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.projects .right svg {
+  padding-left: 2rem;
+}
+
+.projects .left {
+  background-color: #4a3c66;
+  width: 80%;
+  height: 22rem;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 2rem;
+  padding-top: 3rem;
+}
+
+.projects .left h2 {
+  margin-left: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+  color: #3FDD17;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.projects .left h1 {
+  margin: 0;
+  color: #F2A0AF;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.projects .left p {
+  padding-left: 2rem;
+}
+
+.projects .left svg {
+  padding-left: 2rem;
+}
+
+.projects .notey h1 {
+  text-align: center;
+  margin-left: 14%;
+  margin-right: 10%;
+  margin-top: 40%;
+}
+
+.projects .notey-container-1 {
+  background-color: #876cbe;
+  width: 80%;
+  height: 19.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding-top: 3rem;
+}
+
+.projects .notey-container-1 h1 {
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.projects .notey-container-1 p {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.projects .notey-container-2 {
+  background-color: #876cbe;
+  width: 80%;
+  height: 19.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding-top: 3rem;
+}
+
+.projects .notey-container-2 h1 {
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.projects .notey-container-2 p {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.projects .notey-container-3 {
+  background-color: #876cbe;
+  width: 80%;
+  height: 19.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding-top: 3rem;
+}
+
+.projects .notey-container-3 h1 {
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.projects .notey-container-3 p {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.contact {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.contact h1 {
+  color: #F2A0AF;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.contact h2 {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  padding: 0;
+  color: #3FDD17;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.contact button {
+  border-radius: 0.5rem;
+  background-color: #0F0A4A;
+  border-color: #3FDD17;
+  border-width: 0.15rem;
+  padding: 15px 32px;
+  color: #F2A0AF;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.contact p {
+  color: #976DA0;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer p {
+  color: #976DA0;
+}
+
+footer svg {
+  margin-top: 0.8rem;
+  margin-left: 5%;
+}
+
+@media only screen and (min-width: 700px) {
+  .social-links {
+    display: unset;
+    position: fixed;
+    bottom: 0;
+  }
+  .social-links ul li {
+    margin-top: 80%;
+  }
+  .intro p {
+    margin-right: 20%;
+  }
+  .large-screen {
+    display: unset;
+  }
+  .intro, .contact {
+    margin-left: 17%;
+  }
+  .about-me {
+    margin-left: 5%;
+  }
+  footer {
+    margin-left: 35%;
+  }
+  .me {
+    padding-left: 20%;
+  }
+  .worthy {
+    margin-left: 10%;
+  }
+  .projects {
+    margin-left: 10%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
