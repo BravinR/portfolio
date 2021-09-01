@@ -24,7 +24,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-left: 10%;
-  padding-top: 15%;
+  padding-top: 1%;
 }
 
 .nav-container a .logo-svg {
@@ -105,7 +105,7 @@ a {
 }
 
 .about-me {
-  margin-top: 40%;
+  margin-top: 10%;
 }
 
 .about-me h1 {
@@ -163,7 +163,7 @@ a {
 }
 
 .projects {
-  margin-top: 40%;
+  margin-top: 10%;
 }
 
 .projects h1 {
@@ -200,7 +200,7 @@ a {
 }
 
 .projects .right h1 {
-  margin-left: 0%;
+  margin-left: 7.5%;
   color: #F2A0AF;
   font-size: 1.5rem;
   font-weight: 500;
@@ -227,7 +227,7 @@ a {
 }
 
 .projects .left h2 {
-  margin-left: 2rem;
+  margin-left: 10%;
   margin-bottom: 0;
   padding: 0;
   color: #3FDD17;
@@ -236,7 +236,7 @@ a {
 }
 
 .projects .left h1 {
-  margin: 0;
+  margin-left: 7.5%;
   color: #F2A0AF;
   font-size: 1.5rem;
   font-weight: 500;
@@ -244,7 +244,8 @@ a {
 }
 
 .projects .left p {
-  padding-left: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .projects .left svg {
@@ -255,7 +256,7 @@ a {
   text-align: center;
   margin-left: 14%;
   margin-right: 10%;
-  margin-top: 40%;
+  margin-top: 10%;
 }
 
 .projects .notey-container-1 {
@@ -364,9 +365,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5rem;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 footer p {
@@ -375,7 +373,7 @@ footer p {
 
 footer svg {
   margin-top: 0.8rem;
-  margin-left: 5%;
+  margin-left: 2rem;
 }
 
 @media only screen and (min-width: 700px) {
