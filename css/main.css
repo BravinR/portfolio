@@ -174,6 +174,7 @@ a {
 
 .projects {
   margin-top: 10%;
+  position: relative;
 }
 
 .projects h1 {
@@ -190,26 +191,27 @@ a {
   border-color: #4555b4;
 }
 
-.projects .right {
-  background-color: #715d99;
+.projects .first_project {
+  background-color: #5b5279;
   width: 80%;
   height: 22rem;
   margin-left: 11%;
   margin-right: 11%;
   margin-top: 2rem;
-  padding-top: 3rem;
+  border-radius: 10%;
+  position: absolute;
+  opacity: 0;
 }
 
-.projects .right h2 {
+.projects .first_project h2 {
   margin-left: 10%;
-  margin-bottom: 0;
-  padding: 0;
+  padding-top: 1rem;
   color: #3fdd17;
   font-weight: 400;
   font-size: 1rem;
 }
 
-.projects .right h1 {
+.projects .first_project h1 {
   margin-left: 1.5%;
   color: #f2a0af;
   font-size: 1.5rem;
@@ -217,38 +219,40 @@ a {
   padding-left: 2rem;
 }
 
-.projects .right p {
+.projects .first_project p {
+  display: none;
   padding-left: 10%;
   padding-right: 10%;
+  opacity: 0.7;
+  color: #64ffda;
 }
 
-.projects .right .icon0 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-right: 24%;
-  padding-left: 20%;
-  padding-top: 10%;
+.projects .first_project a {
+  display: none;
 }
 
-.projects .right .icon0 svg {
-  width: 10%;
+.projects .leica_store img {
+  width: 80%;
+  height: 22rem;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 2rem;
+  border-radius: 10%;
 }
 
-.projects .left {
+.projects .second_project {
   background-color: #4a3c66;
   width: 80%;
   height: 22rem;
   margin-left: 11%;
   margin-right: 11%;
   margin-top: 2rem;
-  padding-top: 3rem;
+  border-radius: 10%;
+  position: absolute;
+  opacity: 0;
 }
 
-.projects .left h2 {
+.projects .second_project h2 {
   margin-left: 10%;
   margin-bottom: 0;
   padding: 0;
@@ -257,7 +261,7 @@ a {
   font-size: 1rem;
 }
 
-.projects .left h1 {
+.projects .second_project h1 {
   margin-left: 1.5%;
   color: #f2a0af;
   font-size: 1.5rem;
@@ -265,13 +269,53 @@ a {
   padding-left: 2rem;
 }
 
-.projects .left p {
+.projects .second_project p {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.projects .left svg {
+.projects .second_project svg {
   padding-left: 2rem;
+}
+
+.projects .third_project {
+  background-color: #5b5279;
+  width: 80%;
+  height: 22rem;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 2rem;
+  border-radius: 10%;
+  position: absolute;
+  opacity: 0;
+}
+
+.projects .third_project h2 {
+  margin-left: 10%;
+  padding-top: 1rem;
+  color: #3fdd17;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.projects .third_project h1 {
+  margin-left: 1.5%;
+  color: #f2a0af;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.projects .third_project p {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  opacity: 0.7;
+  color: #64ffda;
+}
+
+.projects .third_project a {
+  display: none;
 }
 
 .projects .notey h1 {
@@ -578,27 +622,33 @@ footer svg {
     margin: 0%;
     font-size: 36px;
   }
-  .projects .right {
+  .projects .leica_store img {
+    width: 80%;
+    height: auto;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 2rem;
+    border-radius: 10%;
+  }
+  .projects .first_project {
     background-color: #F2A0AF;
     margin: 0%;
     width: 617px;
     height: 403px;
     border-radius: 20px;
   }
-  .projects .right h1 {
+  .projects .first_project h1 {
     font-size: 36px;
     margin-left: 110%;
     width: 250px;
     padding: 0%;
   }
-  .projects .right h2 {
+  .projects .first_project h2 {
     font-size: 24px;
-    margin-left: 110%;
+    margin-left: 0%;
     width: 250px;
-    padding: 0%;
-    margin-top: 0%;
   }
-  .projects .right p {
+  .projects .first_project p {
     background-color: #715D99;
     font-size: 14px;
     margin-left: 80%;
@@ -608,29 +658,58 @@ footer svg {
     padding-bottom: 10%;
     border-radius: 20px;
   }
-  .projects .left {
+  .projects .second_project {
     margin-left: 51.59%;
     width: 617px;
     height: 403px;
     border-radius: 20px;
   }
-  .projects .left h1 {
+  .projects .second_project h1 {
     font-size: 36px;
     margin-left: -40%;
     width: 250px;
     padding: 0%;
   }
-  .projects .left h2 {
+  .projects .second_project h2 {
     font-size: 24px;
     margin-left: -40%;
     width: 250px;
     padding: 0%;
     margin-top: 0%;
   }
-  .projects .left p {
+  .projects .second_project p {
     background-color: #715D99;
     font-size: 14px;
     margin-left: -70%;
+    width: 400px;
+    padding-top: 10%;
+    margin-top: 0%;
+    padding-bottom: 10%;
+    border-radius: 20px;
+  }
+  .projects .third_project {
+    background-color: #F2A0AF;
+    margin: 0%;
+    width: 617px;
+    height: 403px;
+    border-radius: 20px;
+  }
+  .projects .third_project h1 {
+    font-size: 36px;
+    margin-left: 110%;
+    width: 250px;
+    padding: 0%;
+  }
+  .projects .third_project h2 {
+    font-size: 24px;
+    margin-left: 0%;
+    width: 250px;
+  }
+  .projects .third_project p {
+    display: block;
+    background-color: #715D99;
+    font-size: 14px;
+    margin-left: 80%;
     width: 400px;
     padding-top: 10%;
     margin-top: 0%;
